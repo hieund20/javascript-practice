@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>JavaScript Practice</title>
+</head>
+<body>
+    <h1 class="title">JavaScript Practice</h1>
+
+    <div class="block-main">
+        <h3>1. Finding the largest digit of n (0 <= n < 1000)</h3>
+        <h4>Ex:</h4>
+        <h4>getMaxDigit(1) --> 1</h4>
+        <h4>getMaxDigit(934) --> 9</h4>
+        <br/>
+        <input id="input1" type="text" value="" placeholder="Input your number" />
+        <button id="button1">View result</button>
+        <br/>
+        <br/>
+        <span>Result: </span>
+        <span id="result1" style="color: blue;"></span>
+    </div>
+
+    <div class="block-main">
+        <h3>2. Checking symmetric number (0 <= n <= 999)</h3>
+        <h4>Ex:</h4>
+        <h4>isSymmetricNumber(1) --> true</h4>
+        <h4>isSymmetricNumber(33) --> true</h4>
+        <h4>isSymmetricNumber(393) --> true</h4>
+        <h4>isSymmetricNumber(332) --> false</h4>
+        <br/>
+        <input  id="input2" 
+                type="text" 
+                value=""
+                placeholder="Input your number"/>
+        <button id="button2">View result</button>
+        <br/>
+        <br/>
+        <span>Result: </span>
+        <span id="result2" 
+              style="color: blue;"></span>
+    </div>
+
+    <div class="block-main">
+        <h3>3. Convert seconds to string with format as per hh:mm:ss (0 <= seconds <= 86400)</h3>
+        <h4>Ex:</h4>
+        <h4>formatTime(0) --> '00:00:00'</h4>
+        <h4>formatTime(9) --> '00:00:09'</h4>
+        <h4>formatTime(4256) --> '01:10:56'</h4>
+        <br/>
+        <input  id="input3" 
+                type="text" 
+                value=""
+                placeholder="Input your number"/>
+        <button id="button3">View result</button>
+        <br/>
+        <br/>
+        <span>Result: </span>
+        <span id="result3" 
+              style="color: blue;"></span>
+    </div>
+
+    <div class="block-main">
+        <h3>4. Finding secret</h3>
+        <h4>Ex:</h4>
+        <h4>findSecret('FSDFDSFS') --> ''</h4>
+        <h4>findSecret('secretQREWTRcoRTde') -->'secret code'</h4>
+        <br/>
+        <input  id="input4" 
+                type="text" 
+                value=""
+                placeholder="Input your encryption code"/>
+        <button id="button4">View result</button>
+        <br/>
+        <br/>
+        <span>Result: </span>
+        <span id="result4" 
+              style="color: blue;"></span>
+    </div>
+
+    <div class="block-main">
+        <h3>5. Input firstName and lastName return fullName with format :</h3>
+        <h4>- firstName and lastName are optional</h4>
+        <h4>- fullName with no spaces at the start or end</h4>
+        <h4>- firstName and lastName must be capitalized at the first letter</h4>
+        <h4>Ex:</h4>
+        <h4>getFullName('Alice') --> 'Alice'</h4>
+        <h4>getFullName('Alice', '') --> 'Alice'</h4>
+        <h4>getFullName('Bod', 'Le') --> 'Bod Le'</h4>
+        <h4>getFullName('john', 'pHAm') --> 'John Pham'</h4>
+        <br/>
+        <input id="firstName" type="text" value="" placeholder="Input your first name" />
+        <br/>
+        <br/>
+        <input id="lastName" type="text" value="" placeholder="Input your last name" />
+        <button id="button5">View result</button>
+        <br/>
+        <br/>
+        <span>Full name: </span>
+        <span id="result5" style="color: blue;"></span>
+    </div>
+
+    <div class="footer"></div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

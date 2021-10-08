@@ -1,0 +1,36 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.title{
+    text-align: center;
+}
+
+.block-main{
+    width: 80%;
+    background-color:rgb(230, 230, 230);
+    margin: 45px auto;
+    border-radius: 10px;
+}
+
+
+input{
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+button{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(132, 185, 231);
+    cursor: pointer;
+    transform: scale(1.1); /* zoom 110% */
+}
+
+.footer{
+    height: 100px;
+}
+
